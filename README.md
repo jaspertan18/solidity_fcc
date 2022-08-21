@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# Overview
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project showcases standard usage of Hardhat.
 
-Try running some of the following tasks:
+# Functionalities
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+1. Fund and withdraw from a wallet
+2. Deploy on local blockchain
+3. Deploy on Goerli testnet
+4. Unit and staging tests
