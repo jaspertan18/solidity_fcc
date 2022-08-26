@@ -225,10 +225,11 @@ const { devChains, networkConfig } = require("../../helper-hardhat-config");
                                       )
                                       .toString()
                               );
+
+                              resolve();
                           } catch (e) {
                               reject(e);
                           }
-                          resolve();
                       });
 
                       const tx = await raffle.performUpkeep([]);
